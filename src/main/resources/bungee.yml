@@ -1,0 +1,9 @@
+name: TMC Server Start Cloud
+version: '${project.version}'
+main: org.themodcraft.tmc_server_start_colud.TMCServerStartCloud
+
+commands:
+  startserver:
+    description: Start a configured server
+    usage: /startserver <servername>
+    permission: tmcserverstartcloud.startserver

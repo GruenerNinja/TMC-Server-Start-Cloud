@@ -1,0 +1,14 @@
+# TMC Server Start Cloud Configuration
+
+# You can add your server configurations here
+servers:
+  example_server:
+    startCommand: "/Users/server1/Desktop/TMC Network/Tmc Network/TMC_Mega_Wargear/Start_TMC_Mega_Wargear.command"
+    standalone: false
+    standaloneip: 127.0.0.1
+    # You can add more servers as needed
+#  another_server:
+#    startCommand: "/path/to/another_server/start.command"
+
+# You can remove the defaultStartCommand if you don't need it
+# defaultStartCommand: "/path/to/default/start/command.command"
